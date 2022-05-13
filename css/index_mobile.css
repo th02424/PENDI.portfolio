@@ -1,0 +1,244 @@
+
+html{
+    font-size: 9.5vw;
+}
+body{
+    font-size: 2.4vw;
+}
+.hdrWrap nav{
+    width: calc(100% / 4 * 3);
+    font-size: min(1.4em, 14px);
+}
+.hdrWrap nav i{
+    font-size: min(1.5em, 15px);
+    line-height: 40px;
+}
+.hdrWrap .bar{
+    width: calc(100% / 4 * 3 / 5);
+}
+.mainWrap .left{
+    height: min(8rem, 320px);
+}
+.left .ovrGrid{
+    height: min(8rem, 320px);
+}
+.cntWrap{
+    margin-top: min(1rem, 40px);
+}
+.content{
+    max-width: 380px;
+}
+.cntWrap h2{
+    font-size: min(1.6em, 16px);
+}
+.cnt01 section{
+    margin-top: min(1rem, 40px);
+}
+.cnt01 .artGroup{
+    width: 500%;
+    height: min(8rem, 320px);
+}
+.cnt01 article{
+    width: calc(100% / 10 - 1.6%);
+}
+.cnt01 article{
+    width: calc(100% / 10 - 20px);
+    margin: 0 10px;
+}
+.cnt01 article:nth-child(2), .cnt01 article:nth-child(5), .cnt01 article:nth-child(8), .cnt01 article:nth-child(11), .cnt01 article:nth-child(14){
+    width: calc(100% / 10 - 20px);
+    margin: 0 10px;
+}
+.cnt01 .paging{
+    width: 60%;
+    height: min(1rem, 40px);
+    flex-direction: row;
+    left: 0px;
+    right: 0;
+    top: inherit;
+    bottom: 0px;
+}
+.cnt01 .paging li{
+    width: 20px;
+    height: 20px;
+}
+.cnt01 .image.i2, .cnt01 .image.i5, .cnt01 .image.i8, .cnt01 .image.i11, .cnt01 .image.i14{
+    height: min(5rem, 200px);
+    margin-top: min(2rem, 80px);
+}
+.cnt01 article .image{
+    height: min(6rem, 240px);
+    margin-top: 0px;
+}
+.cnt02 .ovrGrid{
+    clip-path: polygon(0 3%, 0% 100%, 100% 0);
+    margin-left: min(calc((100vw - 380px) / -2), calc((100vw - 90vw) / -2));
+}
+.cnt02 .i2 .ovrGrid{
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+}
+.cnt02 article h3{
+    font-size: min(1.4em, 14px);
+}
+.cnt02 article:nth-child(3) h3{
+    line-height: min(0.5rem, 20px);
+}
+.cnt02 article p{
+    width: 100%;
+    font-size: min(1.2em, 12px);
+    margin-top: min(1.75rem, 30px);
+    height: min(1.5rem, 60px);
+    overflow: hidden;
+}
+.cnt02 article:nth-child(1) p{
+    width: 100%;
+}
+
+.cnt02 .texts{
+    padding-top: 0px;
+    margin-top: max(-3rem, -120px);
+    position: relative;
+}
+.cnt02 article:nth-child(3) .texts{
+    padding-top: 0px;
+}
+.cnt03 section{
+    display: block;
+    justify-content: inherit;
+}
+.cnt03 .artLeft{
+    width: 100%;
+    height: min(5rem, 200px);
+    position: inherit;
+}
+.cnt03 .artLeft .image{
+    direction: ltr;
+}
+.cnt03 .artLeft .ovrGrid{
+    height: min(5rem, 200px);
+    width: 100%;
+    min-width: 100%;
+    margin-left: 0px;
+}
+.cnt03 .artRight{
+    width: 100%;
+    position: inherit;
+    height: min(14rem, 560px);
+    flex-wrap: inherit;
+    justify-content: inherit;
+}
+.cnt03 .artRight article{
+    width: calc(100% / 4 * 2 + 20px);
+    position: inherit;
+    margin: 0 auto;
+    height: min(4rem, 160px);
+    margin-top: min(1rem, 40px);
+}
+.cnt03 .artRight .artBtm{
+    width: 100%;
+    display: block;
+    position: inherit;
+    margin-top: 0px;
+}
+.cnt03 .artRight .artBtm>article{
+    width: calc(100% / 4 * 2 + 20px);
+    position: inherit;
+}
+.cnt03 .artRight .artBtm>article:nth-child(3){
+    display: none;
+}
+.cnt03 .artRight .image{
+    height: min(4rem, 160px);
+    background-position-y: -40px;
+}
+.cnt03 .artRight .artBtm>article:nth-child(1){
+    margin: 0 auto;
+    margin-top: min(1rem, 40px);
+}
+.cnt03 .artRight .artBtm>article:nth-child(2){
+    margin-top: min(1rem, 40px);
+}
+.cnt04 section{
+    margin-top: max(-0.75rem, -30px);
+}
+.cnt04 .artGroup{
+    width: 100%;
+    display: block;
+}
+.cnt04 .artFamily{
+    width: 100%;
+    display: block;
+    flex-wrap: inherit;
+}
+.cnt04 article{
+    width: calc(100% / 4 * 3 - 20px);
+    margin-top: min(1rem, 40px);
+}
+.cnt04 .image{
+    height: min(4rem, 160px);
+}
+.cnt04 article:nth-child(1){
+    margin-top: 0px;
+}
+.cnt04 article:nth-child(1), .cnt04 article:nth-child(3){
+    margin-left: auto;
+}
+
+.cnt04 .artFamily:nth-child(1)~div{
+    display: none;
+}
+.cnt04 h2{
+    text-align: left;
+}
+.cnt04 .btns{
+    display: none;
+}
+.bnr01{
+    height: min(8rem, 320px);
+}
+.bnr01 .grid{
+    height: min(8rem, 320px);
+    max-width: 380px;
+}
+.bnr01 .coverImg{
+    width: 100%;
+    height: min(5rem, 200px);
+    top: min(1rem, 40px);
+    bottom: inherit;
+    margin: 0;
+}
+.bnr01 .grid h2{
+    position: absolute;
+    bottom: min(1rem, 40px);
+    right: 0;
+    z-index: 5;
+    font-size: min(1.2em, 12px);
+    line-height: min(0.5rem, 20px);
+}
+.bnr01 .btn{
+    position: absolute;
+    width: 100%;
+    font-size: min(1.2em, 12px);
+    line-height: min(0.5rem, 20px);
+    bottom: 0;
+}
+footer{
+    height: min(3rem, 120px);
+}
+footer nav{
+    display: none;
+}
+footer .info{
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding-top: min(0.5rem, 20px);
+}
+footer .info h1{
+    width: calc(100% / 4);
+    height: min(1rem, 40px);
+    margin: 0 auto;
+}

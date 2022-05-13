@@ -1,0 +1,250 @@
+
+html{
+    font-size: 5.1vw;
+}
+body{
+    font-size: 1.3vw;
+}
+.hdrWrap header{
+    width: 90%;
+    max-width: 700px;
+}
+.hdrWrap nav{
+    width: calc(100% / 8 * 4);
+    font-size: min(1.6em, 16px);
+}
+.hdrWrap nav i{
+    font-size: min(2em, 20px);
+}
+.hdrWrap .bar{
+    width: calc(100% / 8 * 4 / 5);
+}
+
+.main{
+    width: 90%;
+    max-width: 700px;
+    display: block;
+}
+.mainWrap .left{
+    width: 100%;
+}
+.cnt01 section{
+    height: min(10rem, 400px);
+}
+.left .bgimg{
+    width: 100%;
+}
+.left .ovrGrid{
+    width: 100vw;
+    margin-left: min(calc((100vw - 700px) / -2), calc((100vw - 90vw) / -2));
+    background-image: url('../images/main/main_tab.PNG');
+}
+.left .logo{
+    display: none;
+}
+.left .btn{
+    display: none;
+}
+.right{
+    display: none;
+}
+.cnt01 section{
+    height: min(9rem, 360px);
+    margin-top: min(1rem, 40px);
+}
+.cnt01 .artGroup{
+    width: calc(100% / 8 * 7);
+    height: min(45rem, 1800px);
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cnt01 article{
+    width: calc(100% / 8 * 3 - 10px);
+    height: min(9rem, 360px);
+}
+.content{
+    width: 90%;
+    max-width: 700px;
+}
+.cnt01 article:nth-child(3), .cnt01 article:nth-child(6), .cnt01 article:nth-child(9), .cnt01 article:nth-child(12), .cnt01 article:nth-child(15){
+    display: none;
+}
+.cnt01 article:nth-child(2), .cnt01 article:nth-child(5), .cnt01 article:nth-child(8), .cnt01 article:nth-child(11), .cnt01 article:nth-child(14){
+    width: calc(100% / 8 * 4 - 10px);
+    margin: 0 1.6%;
+    margin-right: 3.4%;
+}
+.cnt01 .image.i2, .cnt01 .image.i5, .cnt01 .image.i8, .cnt01 .image.i11, .cnt01 .image.i14{
+    height: min(9rem, 360px);
+}
+.cnt01 article .image{
+    height: min(7rem, 280px);
+    margin-top: min(2rem, 80px);
+}
+.cnt01 .paging{
+    width: 40px;
+    height: min(7.5rem, 300px);
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: inherit;
+}
+.cnt01 .paging li{
+    width: 30px;
+    height: 30px;
+}
+.cnt02 article{
+    display: block;
+   
+}
+.cnt02 .image{
+    width: 100%; 
+    direction: ltr;
+}
+.cnt02 .texts{
+    width: 100%;
+}
+.cnt02 .ovrGrid{
+    width: 100vw;
+    min-width: 100vw;
+    margin-left: min(calc((100vw - 700px) / -2), calc((100vw - 90vw) / -2));
+    height: min(6rem, 240px);
+}
+
+.cnt03 section{
+    margin-top: min(1rem, 40px);
+}
+.cnt03 .artLeft .ovrGrid{
+    height:  min(10rem, 400px);
+    width: calc((100vw - 700px) / 2 + 100%);
+    min-width: calc((100vw - 90vw) / 2 + 100%);
+    margin-left: min(calc((100vw - 700px) / -2), calc((100vw - 90vw) / -2));
+}
+.cnt03 .artLeft{
+    width: calc(100% / 8 * 5);
+    position: relative;
+    height: min(10rem, 400px);
+}
+
+
+
+
+.cnt03 .artRight{
+    width: calc(100% / 8 * 3);
+    display: block;
+    position: relative;
+    height: min(17rem, 680px);
+}
+.cnt03 .artRight article{
+    width: calc(100% / 3 * 2);
+    height: min(6rem, 240px);
+    position: absolute;
+    top: min(2rem, 80px);
+    right: 0;
+}
+.cnt03 .artRight .image{
+    height: min(6rem, 240px);
+}
+.cnt03 .artRight .artBtm{
+    width: 90vw;
+    max-width: 700px;
+    height: min(6rem, 240px);
+
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.cnt03 .artRight .artBtm>article{
+    width: calc(100% / 8 * 2);
+    position: absolute;
+    top: 0;
+}
+.cnt03 .artRight .artBtm>article:nth-child(1){
+    margin-top: 0px;
+    margin-left: 0px;
+    left: 0;
+}
+.cnt03 .artRight .artBtm>article:nth-child(2){
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 0px;
+}
+.cnt03 .artRight .artBtm>article:nth-child(3){
+    margin-top: 0px;
+    right: 0;
+}
+.cnt04 .artView{
+    width: calc(100% / 8 * 6);
+}
+.cnt04 .image{
+    height: min(5rem, 200px);
+}
+.cnt04 .btns{
+    width: 100%;
+}
+.bnrWrap{
+    background-color: #000;
+}
+.bnr01 .bgImgGroup{
+    display: none;
+}
+.bnr01{
+    height: min(13rem, 520px);
+}
+.bnr01 .grid{
+    color: #fff;
+    text-align: center;
+    max-width: 700px;
+    font-size: min(1.8em, 18px);
+}
+.bnr01 .coverImg{
+    width: calc(100% / 8 * 6 + 20px);
+}
+.bnr01 .grid h2{
+    display: block;
+    line-height: min(2rem, 80px);
+}
+.bnr01 .btn{
+    width: 100%;
+    height: min(1rem, 40px);
+    line-height: min(1rem, 40px);
+    display: block;
+    text-align: right;
+    position: absolute;
+    bottom: min(0.5rem, 20px);
+}
+footer{
+    height: min(9rem, 360px);
+    position: relative;
+}
+footer ul{
+    height: min(1rem, 40px);
+    overflow: hidden;
+}
+footer ul li{
+    border-right: 1px solid pink ;
+    text-align: center;
+    padding-right: min(0.5rem, 20px);
+}
+footer ul li:nth-child(1) i{
+    display: inline;
+    font-size: min(1.5em, 15px);
+}
+
+
+footer ul:nth-child(4) li{
+    border-right: none;
+}
+footer .info{
+    width: 100%;
+    margin-top: 0px;
+    position: absolute;
+    right: 0;
+    bottom: min(1rem, 40px);
+}
+footer .info h1{
+    width: calc(100% / 8);
+}
